@@ -6,13 +6,14 @@ import java.util.List;
 import com.proyect.spring.model.DetalleVenta;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 @Setter @Getter 
 @NoArgsConstructor 
 @AllArgsConstructor 
-
+@Builder 
 public class VentaDTO {
     private Long id;
     private LocalDate fecha;
